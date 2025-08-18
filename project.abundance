@@ -400,6 +400,108 @@
                 }
             ],
             "description": "Creates a new rectangle."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.08420056764427625,
+            "y": 0.2809917355371901,
+            "uniqueID": "8735a917-9954-4eb2-b49d-eb6d1013b16c",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 50
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.33774834437086093,
+            "y": 0.2871900826446281,
+            "uniqueID": "fed382d4-778f-4d26-8509-2e79ec39755a",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "779a26f3-8459-43de-bb46-193f1ff43668"
+                },
+                {
+                    "name": "height",
+                    "ioValue": 100
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.22138126773888364,
+            "y": 0.2871900826446281,
+            "uniqueID": "779a26f3-8459-43de-bb46-193f1ff43668",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "8735a917-9954-4eb2-b49d-eb6d1013b16c"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 90
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.45127719962157054,
+            "y": 0.26239669421487605,
+            "uniqueID": "610c07cb-6a10-424d-87ce-a359d6b08839",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "fed382d4-778f-4d26-8509-2e79ec39755a"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 20
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.5354777672658467,
+            "y": 0.1487603305785124,
+            "uniqueID": "f08a445e-66ab-4aa6-99d9-e6da63aef4ca",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "610c07cb-6a10-424d-87ce-a359d6b08839"
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
@@ -528,6 +630,34 @@
             "ap2Primary": false,
             "ap1ID": "5202bb60-edc5-43b6-a245-e6eb891256e8",
             "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "8735a917-9954-4eb2-b49d-eb6d1013b16c",
+            "ap2ID": "779a26f3-8459-43de-bb46-193f1ff43668"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "fed382d4-778f-4d26-8509-2e79ec39755a",
+            "ap2ID": "610c07cb-6a10-424d-87ce-a359d6b08839"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "779a26f3-8459-43de-bb46-193f1ff43668",
+            "ap2ID": "fed382d4-778f-4d26-8509-2e79ec39755a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": "610c07cb-6a10-424d-87ce-a359d6b08839",
+            "ap2ID": "f08a445e-66ab-4aa6-99d9-e6da63aef4ca"
         }
     ],
     "unitsKey": "MM",
