@@ -33,13 +33,13 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.12298959318826869,
-            "y": 0.487603305785124,
+            "x": 0.12109744560075686,
+            "y": 0.49173553719008267,
             "uniqueID": "330917c0-cd2c-4d6d-ba73-8c93a1db4401",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 150
+                    "ioValue": 155
                 },
                 {
                     "name": "y length",
@@ -87,7 +87,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": -6
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -113,7 +113,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 40
+                    "ioValue": 42
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -121,8 +121,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.44749290444654677,
-            "y": 0.23347107438016526,
+            "x": 0.44938505203405865,
+            "y": 0.23760330578512398,
             "uniqueID": "95b201df-ea2f-4d8b-bfa2-2fa5f3c1b9e7",
             "ioValues": [
                 {
