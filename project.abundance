@@ -1,0 +1,16 @@
+{
+    "atomType": "Molecule",
+    "name": "M4VacuumHoseFlat",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "266bb6d7-5b75-473d-88b2-c801a456646b",
+    "ioValues": [],
+    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
