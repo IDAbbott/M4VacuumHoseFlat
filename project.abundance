@@ -7,7 +7,30 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "2e380851-12d8-415b-af9a-2e132228421d",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.22516556291390727,
+            "y": 0.44421487603305787,
+            "uniqueID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "M4FlatHoseBase2.stl",
+            "type": "STL",
+            "repoOwner": "IDAbbott",
+            "repoName": "M4VacuumHoseFlat"
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
