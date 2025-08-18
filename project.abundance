@@ -189,7 +189,7 @@
                 },
                 {
                     "name": "geometry2",
-                    "ioValue": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4"
+                    "ioValue": "5202bb60-edc5-43b6-a245-e6eb891256e8"
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -216,8 +216,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.056764427625354774,
-            "y": 0.7272727272727273,
+            "x": 0.03405865657521287,
+            "y": 0.7603305785123966,
             "uniqueID": "d3d85fba-dcd4-4c24-ac16-df08bb9dee98",
             "ioValues": [
                 {
@@ -230,8 +230,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09555345316934721,
-            "y": 0.8636363636363636,
+            "x": 0.05014191106906339,
+            "y": 0.896694214876033,
             "uniqueID": "71cbabf8-af74-4ff9-a9f9-3173b3a09d1c",
             "ioValues": [
                 {
@@ -262,13 +262,13 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.2913907284768212,
-            "y": 0.8636363636363636,
+            "x": 0.42951750236518443,
+            "y": 0.8347107438016529,
             "uniqueID": "6c56e487-67d1-4c7a-97c3-920234bc658b",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "1f075b50-2ba3-4b30-8561-c70d155fb0a9"
+                    "ioValue": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542"
                 },
                 {
                     "name": "height",
@@ -280,13 +280,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.3973509933774835,
+            "x": 0.3169347209082309,
             "y": 0.8780991735537189,
             "uniqueID": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "6c56e487-67d1-4c7a-97c3-920234bc658b"
+                    "ioValue": "1f075b50-2ba3-4b30-8561-c70d155fb0a9"
                 },
                 {
                     "name": "xDist",
@@ -304,28 +304,6 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.4787133396404919,
-            "y": 0.6611570247933884,
-            "uniqueID": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4",
-            "ioValues": [
-                {
-                    "name": "Shape 1",
-                    "ioValue": "1d4223ac-b603-4971-8fe0-6525f5dfa163"
-                },
-                {
-                    "name": "Shape 2",
-                    "ioValue": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542"
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": "e0eee1c2-0ed5-4b7d-aa2a-d20d120b81bc"
-                }
-            ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.19110690633869443,
@@ -334,7 +312,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "d3d85fba-dcd4-4c24-ac16-df08bb9dee98"
+                    "ioValue": "6bc30402-a3fa-4fd8-92a5-2077f5a8e374"
                 },
                 {
                     "name": "height",
@@ -346,8 +324,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.32639545884578997,
-            "y": 0.7004132231404959,
+            "x": 0.3254493850520341,
+            "y": 0.7045454545454545,
             "uniqueID": "e0eee1c2-0ed5-4b7d-aa2a-d20d120b81bc",
             "ioValues": [
                 {
@@ -368,6 +346,42 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.04446546830652791,
+            "y": 0.6487603305785123,
+            "uniqueID": "6bc30402-a3fa-4fd8-92a5-2077f5a8e374",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 200
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.4418164616840113,
+            "y": 0.6466942148760331,
+            "uniqueID": "5202bb60-edc5-43b6-a245-e6eb891256e8",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "1d4223ac-b603-4971-8fe0-6525f5dfa163"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "6c56e487-67d1-4c7a-97c3-920234bc658b"
+                },
+                {
+                    "name": "Shape 3",
+                    "ioValue": "e0eee1c2-0ed5-4b7d-aa2a-d20d120b81bc"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
         }
     ],
     "allConnectors": [
@@ -425,7 +439,7 @@
             "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": "1d4223ac-b603-4971-8fe0-6525f5dfa163",
-            "ap2ID": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4"
+            "ap2ID": "5202bb60-edc5-43b6-a245-e6eb891256e8"
         },
         {
             "ap1Name": "geometry",
@@ -443,13 +457,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "d3d85fba-dcd4-4c24-ac16-df08bb9dee98",
-            "ap2ID": "28c742e3-42cd-497c-a7fa-eee8adfe5db8"
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": "71cbabf8-af74-4ff9-a9f9-3173b3a09d1c",
@@ -460,28 +467,21 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "1f075b50-2ba3-4b30-8561-c70d155fb0a9",
-            "ap2ID": "6c56e487-67d1-4c7a-97c3-920234bc658b"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "6c56e487-67d1-4c7a-97c3-920234bc658b",
             "ap2ID": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 2",
             "ap2Primary": false,
-            "ap1ID": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542",
-            "ap2ID": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4"
+            "ap1ID": "6c56e487-67d1-4c7a-97c3-920234bc658b",
+            "ap2ID": "5202bb60-edc5-43b6-a245-e6eb891256e8"
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4",
-            "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "5ad5d2c1-24c9-4f4d-8dde-22e5296b8542",
+            "ap2ID": "6c56e487-67d1-4c7a-97c3-920234bc658b"
         },
         {
             "ap1Name": "geometry",
@@ -495,7 +495,21 @@
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": "e0eee1c2-0ed5-4b7d-aa2a-d20d120b81bc",
-            "ap2ID": "76176bf2-5ae5-43c6-a4d2-8108b66f88d4"
+            "ap2ID": "5202bb60-edc5-43b6-a245-e6eb891256e8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "6bc30402-a3fa-4fd8-92a5-2077f5a8e374",
+            "ap2ID": "28c742e3-42cd-497c-a7fa-eee8adfe5db8"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": "5202bb60-edc5-43b6-a245-e6eb891256e8",
+            "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
         }
     ],
     "unitsKey": "MM",
