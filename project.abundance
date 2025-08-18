@@ -20,8 +20,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.12488174077578051,
-            "y": 0.2396694214876033,
+            "x": 0.0728476821192053,
+            "y": 0.390495867768595,
             "uniqueID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -95,8 +95,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.25070955534531697,
-            "y": 0.26239669421487605,
+            "x": 0.45789971617786185,
+            "y": 0.40909090909090906,
             "uniqueID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
             "ioValues": [
                 {
@@ -197,8 +197,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.5515610217596972,
-            "y": 0.256198347107438,
+            "x": 0.6944181646168401,
+            "y": 0.5082644628099173,
             "uniqueID": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a",
             "ioValues": [
                 {
@@ -382,6 +382,24 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.08609271523178809,
+            "y": 0.1446280991735537,
+            "uniqueID": "51de0776-aae3-473f-a980-5faafd5cb0a1",
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 120
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 80
+                }
+            ],
+            "description": "Creates a new rectangle."
         }
     ],
     "allConnectors": [
