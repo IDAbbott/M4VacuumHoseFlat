@@ -20,8 +20,8 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.14096499526963105,
-            "y": 0.2644628099173554,
+            "x": 0.12488174077578051,
+            "y": 0.2396694214876033,
             "uniqueID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
@@ -33,17 +33,17 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.12961210974456008,
-            "y": 0.49793388429752067,
+            "x": 0.12298959318826869,
+            "y": 0.487603305785124,
             "uniqueID": "330917c0-cd2c-4d6d-ba73-8c93a1db4401",
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 100
+                    "ioValue": 150
                 },
                 {
                     "name": "y length",
-                    "ioValue": 50
+                    "ioValue": 60
                 }
             ],
             "description": "Creates a new rectangle."
@@ -69,8 +69,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.32355723746452225,
-            "y": 0.5640495867768596,
+            "x": 0.3254493850520341,
+            "y": 0.5723140495867769,
             "uniqueID": "585ab0a5-28c7-4779-9495-3c4ea180b690",
             "ioValues": [
                 {
@@ -79,11 +79,11 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 10
+                    "ioValue": 0
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 30
                 },
                 {
                     "name": "zDist",
@@ -93,15 +93,41 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.25070955534531697,
+            "y": 0.26239669421487605,
+            "uniqueID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "f9ede33d-e9f2-468b-852e-7c85adfdc009"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 40
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.4210028382213813,
-            "y": 0.34297520661157027,
-            "uniqueID": "fa912b42-a0cb-47f7-97d3-3e850dfe6304",
+            "x": 0.44749290444654677,
+            "y": 0.23347107438016526,
+            "uniqueID": "95b201df-ea2f-4d8b-bfa2-2fa5f3c1b9e7",
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": "f9ede33d-e9f2-468b-852e-7c85adfdc009"
+                    "ioValue": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4"
                 },
                 {
                     "name": "Shape 2",
@@ -115,10 +141,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 1",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
-            "ap2ID": "fa912b42-a0cb-47f7-97d3-3e850dfe6304"
+            "ap2ID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4"
         },
         {
             "ap1Name": "geometry",
@@ -139,7 +165,14 @@
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "585ab0a5-28c7-4779-9495-3c4ea180b690",
-            "ap2ID": "fa912b42-a0cb-47f7-97d3-3e850dfe6304"
+            "ap2ID": "95b201df-ea2f-4d8b-bfa2-2fa5f3c1b9e7"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
+            "ap2ID": "95b201df-ea2f-4d8b-bfa2-2fa5f3c1b9e7"
         }
     ],
     "unitsKey": "MM",
