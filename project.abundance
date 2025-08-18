@@ -197,8 +197,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.6925260170293283,
-            "y": 0.5020661157024793,
+            "x": 0.695364238410596,
+            "y": 0.5,
             "uniqueID": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a",
             "ioValues": [
                 {
@@ -390,8 +390,8 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.08420056764427625,
-            "y": 0.13429752066115702,
+            "x": 0.08136234626300852,
+            "y": 0.13016528925619833,
             "uniqueID": "51de0776-aae3-473f-a980-5faafd5cb0a1",
             "ioValues": [
                 {
@@ -400,7 +400,7 @@
                 },
                 {
                     "name": "y length",
-                    "ioValue": 80
+                    "ioValue": 100
                 }
             ],
             "description": "Creates a new rectangle."
@@ -454,7 +454,7 @@
                 },
                 {
                     "name": "y-axis degrees",
-                    "ioValue": 80
+                    "ioValue": 75
                 },
                 {
                     "name": "z-axis degrees",
@@ -484,7 +484,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 40
+                    "ioValue": 30
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -554,8 +554,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5988647114474929,
-            "y": 0.34917355371900827,
+            "x": 0.5723746452223273,
+            "y": 0.33264462809917356,
             "uniqueID": "ba4a317f-5e25-4734-8033-2c2336c1641b",
             "ioValues": [
                 {
@@ -568,11 +568,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -80
+                    "ioValue": -52
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -30
+                    "ioValue": -20
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
