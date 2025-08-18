@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "2e380851-12d8-415b-af9a-2e132228421d",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a"
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -212,6 +217,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": "ba4a317f-5e25-4734-8033-2c2336c1641b"
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": "59044825-e2ce-436a-a82e-bfde2109ec8a"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -220,8 +229,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.03405865657521287,
-            "y": 0.7603305785123966,
+            "x": 0.06622516556291391,
+            "y": 0.7396694214876033,
             "uniqueID": "d3d85fba-dcd4-4c24-ac16-df08bb9dee98",
             "ioValues": [
                 {
@@ -355,7 +364,7 @@
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.04446546830652791,
-            "y": 0.6487603305785123,
+            "y": 0.6528925619834711,
             "uniqueID": "6bc30402-a3fa-4fd8-92a5-2077f5a8e374",
             "ioValues": [
                 {
@@ -604,24 +613,6 @@
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         },
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.12961210974456008,
-            "y": 0.9504132231404959,
-            "uniqueID": "bde08105-d6a9-40e3-8d2f-b96c19404523",
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 100
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 10
-                }
-            ],
-            "description": "Creates a new rectangle."
-        },
-        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.41911069063386946,
@@ -630,7 +621,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "bde08105-d6a9-40e3-8d2f-b96c19404523"
+                    "ioValue": ""
                 },
                 {
                     "name": "xDist",
@@ -729,6 +720,13 @@
             "ap2Primary": false,
             "ap1ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65",
             "ap2ID": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a",
+            "ap2ID": "2e380851-12d8-415b-af9a-2e132228421d"
         },
         {
             "ap1Name": "geometry",
@@ -867,19 +865,19 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": "bde08105-d6a9-40e3-8d2f-b96c19404523",
-            "ap2ID": "967a902e-6038-45a1-ada2-0addfe97ae2d"
+            "ap1ID": "967a902e-6038-45a1-ada2-0addfe97ae2d",
+            "ap2ID": "59044825-e2ce-436a-a82e-bfde2109ec8a"
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "967a902e-6038-45a1-ada2-0addfe97ae2d",
-            "ap2ID": "59044825-e2ce-436a-a82e-bfde2109ec8a"
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": "59044825-e2ce-436a-a82e-bfde2109ec8a",
+            "ap2ID": "64568ea0-2c69-4d4d-9900-dcb1bd9e970a"
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
