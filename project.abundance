@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "2e380851-12d8-415b-af9a-2e132228421d",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": ""
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -59,8 +64,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.5962264150943396,
-            "y": 0.15841584158415842,
+            "x": 0.5976415094339623,
+            "y": 0.1504950495049505,
             "uniqueID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65",
             "ioValues": [
                 {
@@ -103,8 +108,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5108490566037736,
-            "y": 0.904950495049505,
+            "x": 0.505188679245283,
+            "y": 0.7722772277227722,
             "uniqueID": "967a902e-6038-45a1-ada2-0addfe97ae2d",
             "ioValues": [
                 {
@@ -129,8 +134,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5553453169347209,
-            "y": 0.933884297520661,
+            "x": 0.6174528301886792,
+            "y": 0.8138613861386139,
             "uniqueID": "59044825-e2ce-436a-a82e-bfde2109ec8a",
             "ioValues": [
                 {
@@ -944,6 +949,13 @@
             "ap2Primary": false,
             "ap1ID": "74206541-068b-4aff-8073-ac98f524bce3",
             "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "a240d9fd-c96b-4a72-9cb8-5d5e1a901ae1",
+            "ap2ID": "2e380851-12d8-415b-af9a-2e132228421d"
         }
     ],
     "unitsKey": "MM",
