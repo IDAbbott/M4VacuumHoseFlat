@@ -45,7 +45,7 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
+                    "ioValue": "",
                     "currentEquation": null
                 },
                 {
@@ -59,8 +59,8 @@
         {
             "atomType": "Molecule",
             "name": "Exhaust",
-            "x": 0.16084905660377358,
-            "y": 0.2811881188118812,
+            "x": 0.15283018867924528,
+            "y": 0.5801980198019802,
             "uniqueID": "8c069298-3247-466b-9c48-a5131119d58a",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -837,8 +837,8 @@
         {
             "atomType": "Molecule",
             "name": "topBlock",
-            "x": 0.25566037735849056,
-            "y": 0.11881188118811882,
+            "x": 0.21132075471698114,
+            "y": 0.10297029702970296,
             "uniqueID": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -959,8 +959,8 @@
         {
             "atomType": "Molecule",
             "name": "NegSpace",
-            "x": 0.3292452830188679,
-            "y": 0.25346534653465347,
+            "x": 0.41367924528301886,
+            "y": 0.499009900990099,
             "uniqueID": "74206541-068b-4aff-8073-ac98f524bce3",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1326,8 +1326,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.39009433962264145,
-            "y": 0.3702970297029703,
+            "x": 0.44905660377358486,
+            "y": 0.6792079207920793,
             "uniqueID": "53147f5b-c8f6-414f-89d2-8bb651a41ebe",
             "ioValues": [
                 {
@@ -1386,8 +1386,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.36886792452830186,
-            "y": 0.7287128712871287,
+            "x": 0.2971698113207547,
+            "y": 0.40198019801980195,
             "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
             "ioValues": [
                 {
@@ -1407,8 +1407,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 43,
-                    "currentEquation": "43"
+                    "ioValue": -20,
+                    "currentEquation": "-20"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1446,8 +1446,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.22924528301886793,
-            "y": 0.8613861386138614,
+            "x": 0.21415094339622642,
+            "y": 0.36237623762376237,
             "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1577,12 +1577,27 @@
                     "ioValue": "42fa4cd6-2a81-4fe5-a442-c2266767e42d"
                 },
                 {
-                    "name": "Shape 2",
-                    "ioValue": "1870aade-ed33-4aa0-b049-86329fb1b15f"
-                },
-                {
                     "name": "Shape 3",
                     "ioValue": "53147f5b-c8f6-414f-89d2-8bb651a41ebe"
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+            "unionType": "Fusion"
+        },
+        {
+            "atomType": "Fusion",
+            "name": "Fusion",
+            "x": 0.38962264150943393,
+            "y": 0.16237623762376238,
+            "uniqueID": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e",
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": "41ad4821-0607-487c-a2d1-9ec3ab1aef53"
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": "1870aade-ed33-4aa0-b049-86329fb1b15f"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -1606,10 +1621,10 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "geometry1",
+            "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
-            "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
+            "ap2ID": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e"
         },
         {
             "ap1Name": "Geometry",
@@ -1637,7 +1652,7 @@
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
-            "ap2ID": "25971284-8fc8-41f2-9213-31820dacc0a7"
+            "ap2ID": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e"
         },
         {
             "ap1Name": "geometry",
