@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "a64535a0-d559-4625-818e-48a32663e97c",
+                    "ioValue": "27cf9688-faac-4509-a819-22982a4d46b7",
                     "currentEquation": null
                 }
             ],
@@ -87,86 +87,6 @@
             "description": "Subtracts shape two from shape one."
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.3830188679245283,
-            "y": 0.7742574257425743,
-            "uniqueID": "ba4a317f-5e25-4734-8033-2c2336c1641b",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": -52,
-                    "currentEquation": "-52"
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": -20,
-                    "currentEquation": "-20"
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.505188679245283,
-            "y": 0.7722772277227722,
-            "uniqueID": "967a902e-6038-45a1-ada2-0addfe97ae2d",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.6174528301886792,
-            "y": 0.8138613861386139,
-            "uniqueID": "59044825-e2ce-436a-a82e-bfde2109ec8a",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "967a902e-6038-45a1-ada2-0addfe97ae2d",
-                    "currentEquation": null
-                },
-                {
-                    "name": "height",
-                    "ioValue": 100,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
             "atomType": "Molecule",
             "name": "Exhaust",
             "x": 0.16084905660377358,
@@ -194,8 +114,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.14575471698113207,
-                    "y": 0.16435643564356436,
+                    "x": 0.20660377358490564,
+                    "y": 0.14257425742574256,
                     "uniqueID": "b21912d9-533c-4b5a-93f7-4b3477e105c2",
                     "ioValues": [
                         {
@@ -1235,8 +1155,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.38679245283018865,
-            "y": 0.398019801980198,
+            "x": 0.3929245283018868,
+            "y": 0.3821782178217822,
             "uniqueID": "53147f5b-c8f6-414f-89d2-8bb651a41ebe",
             "ioValues": [
                 {
@@ -1295,9 +1215,9 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.6193396226415094,
-            "y": 0.43366336633663366,
-            "uniqueID": "a64535a0-d559-4625-818e-48a32663e97c",
+            "x": 0.594811320754717,
+            "y": 0.4633663366336634,
+            "uniqueID": "27cf9688-faac-4509-a819-22982a4d46b7",
             "ioValues": [
                 {
                     "name": "Shape 1",
@@ -1329,7 +1249,7 @@
             "ap2Name": "Shape 3",
             "ap2Primary": false,
             "ap1ID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
-            "ap2ID": "a64535a0-d559-4625-818e-48a32663e97c"
+            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
         },
         {
             "ap1Name": "geometry",
@@ -1337,13 +1257,6 @@
             "ap2Primary": true,
             "ap1ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65",
             "ap2ID": "42fa4cd6-2a81-4fe5-a442-c2266767e42d"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "967a902e-6038-45a1-ada2-0addfe97ae2d",
-            "ap2ID": "59044825-e2ce-436a-a82e-bfde2109ec8a"
         },
         {
             "ap1Name": "Geometry",
@@ -1371,20 +1284,20 @@
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "53147f5b-c8f6-414f-89d2-8bb651a41ebe",
-            "ap2ID": "a64535a0-d559-4625-818e-48a32663e97c"
+            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": "42fa4cd6-2a81-4fe5-a442-c2266767e42d",
-            "ap2ID": "a64535a0-d559-4625-818e-48a32663e97c"
+            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": "a64535a0-d559-4625-818e-48a32663e97c",
+            "ap1ID": "27cf9688-faac-4509-a819-22982a4d46b7",
             "ap2ID": "2e380851-12d8-415b-af9a-2e132228421d"
         }
     ],
