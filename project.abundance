@@ -227,26 +227,6 @@
                     "description": "Creates a new circle."
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.37971698113207547,
-                    "y": 0.8158415841584158,
-                    "uniqueID": "969676bd-0fab-4d71-acb2-fc83d937a3f8",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2",
-                            "currentEquation": null
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": 160,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.26084905660377355,
@@ -255,23 +235,23 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "a2877251-9e64-4fa8-8c4e-0ab6b5f3d979",
+                            "ioValue": "05a1c856-a6be-45a9-8349-464cc15334ca",
                             "currentEquation": null
                         },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         },
                         {
                             "name": "y-axis degrees",
                             "ioValue": 75,
-                            "currentEquation": null
+                            "currentEquation": "75"
                         },
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -279,29 +259,29 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5221698113207547,
-                    "y": 0.7089108910891089,
+                    "x": 0.5264150943396226,
+                    "y": 0.7168316831683169,
                     "uniqueID": "f67eff80-47e8-4605-9724-1821539f3ff2",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "969676bd-0fab-4d71-acb2-fc83d937a3f8",
+                            "ioValue": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2",
                             "currentEquation": null
                         },
                         {
                             "name": "xDist",
                             "ioValue": -70,
-                            "currentEquation": null
+                            "currentEquation": "-70"
                         },
                         {
                             "name": "yDist",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         },
                         {
                             "name": "zDist",
                             "ioValue": 30,
-                            "currentEquation": null
+                            "currentEquation": "30"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -415,11 +395,29 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
+                            "ioValue": "ec71c832-4f2f-4cc1-af01-aa62f22b3330",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "dc26fba1-80c6-4483-9b46-387ce5e47a17",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Shape 3",
                             "ioValue": "",
                             "currentEquation": null
                         },
                         {
                             "name": "Shape 1",
+                            "ioValue": "ec71c832-4f2f-4cc1-af01-aa62f22b3330"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "dc26fba1-80c6-4483-9b46-387ce5e47a17"
+                        },
+                        {
+                            "name": "Shape 3",
                             "ioValue": ""
                         }
                     ],
@@ -429,14 +427,14 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.040566037735849055,
-                    "y": 0.4178217821782178,
+                    "x": 0.03773584905660377,
+                    "y": 0.40396039603960393,
                     "uniqueID": "cf726cf9-6725-45a3-99dc-fc1c6a674c8e",
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": "10"
+                            "ioValue": 34,
+                            "currentEquation": "34"
                         }
                     ],
                     "description": "Creates a new circle."
@@ -444,17 +442,77 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.03537735849056604,
-                    "y": 0.6554455445544555,
+                    "x": 0.033962264150943396,
+                    "y": 0.6574257425742575,
                     "uniqueID": "699584a7-efc3-4837-b71c-ef2faf6685b7",
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10,
-                            "currentEquation": "10"
+                            "ioValue": 36,
+                            "currentEquation": "36"
                         }
                     ],
                     "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.10047169811320755,
+                    "y": 0.5584158415841584,
+                    "uniqueID": "dc26fba1-80c6-4483-9b46-387ce5e47a17",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "699584a7-efc3-4837-b71c-ef2faf6685b7",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 80,
+                            "currentEquation": "80"
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.1018867924528302,
+                    "y": 0.4178217821782178,
+                    "uniqueID": "ec71c832-4f2f-4cc1-af01-aa62f22b3330",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "cf726cf9-6725-45a3-99dc-fc1c6a674c8e",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -469,22 +527,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "a2877251-9e64-4fa8-8c4e-0ab6b5f3d979",
-                    "ap2ID": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "969676bd-0fab-4d71-acb2-fc83d937a3f8",
-                    "ap2ID": "f67eff80-47e8-4605-9724-1821539f3ff2"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2",
-                    "ap2ID": "969676bd-0fab-4d71-acb2-fc83d937a3f8"
+                    "ap2ID": "f67eff80-47e8-4605-9724-1821539f3ff2"
                 },
                 {
                     "ap1Name": "geometry",
@@ -520,6 +564,41 @@
                     "ap2Primary": false,
                     "ap1ID": "201b9c7e-d169-4f7a-9e68-63f16ae86716",
                     "ap2ID": "02b01aa4-f2bb-4284-be1a-b5eb02f659b6"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "05a1c856-a6be-45a9-8349-464cc15334ca",
+                    "ap2ID": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "cf726cf9-6725-45a3-99dc-fc1c6a674c8e",
+                    "ap2ID": "ec71c832-4f2f-4cc1-af01-aa62f22b3330"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "699584a7-efc3-4837-b71c-ef2faf6685b7",
+                    "ap2ID": "dc26fba1-80c6-4483-9b46-387ce5e47a17"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": "dc26fba1-80c6-4483-9b46-387ce5e47a17",
+                    "ap2ID": "05a1c856-a6be-45a9-8349-464cc15334ca"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": "ec71c832-4f2f-4cc1-af01-aa62f22b3330",
+                    "ap2ID": "05a1c856-a6be-45a9-8349-464cc15334ca"
                 }
             ],
             "fileTypeVersion": 1,
