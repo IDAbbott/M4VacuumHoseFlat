@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
+            "x": 0.9792452830188679,
+            "y": 0.48910891089108915,
             "uniqueID": "2e380851-12d8-415b-af9a-2e132228421d",
             "ioValues": [
                 {
@@ -1185,8 +1185,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5716981132075472,
-            "y": 0.5108910891089109,
+            "x": 0.5735849056603773,
+            "y": 0.5148514851485149,
             "uniqueID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
             "ioValues": [
                 {
@@ -1241,8 +1241,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.28820754716981134,
-            "y": 0.6059405940594059,
+            "x": 0.29245283018867924,
+            "y": 0.6039603960396039,
             "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
             "ioValues": [
                 {
@@ -1262,8 +1262,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 45,
-                    "currentEquation": "45"
+                    "ioValue": 43,
+                    "currentEquation": "43"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
