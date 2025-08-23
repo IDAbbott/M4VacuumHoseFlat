@@ -45,7 +45,7 @@
             "ioValues": [
                 {
                     "name": "geometry1",
-                    "ioValue": "",
+                    "ioValue": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e",
                     "currentEquation": null
                 },
                 {
@@ -1347,8 +1347,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 52,
-                    "currentEquation": "52"
+                    "ioValue": 50,
+                    "currentEquation": "50"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1386,8 +1386,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.2971698113207547,
-            "y": 0.40198019801980195,
+            "x": 0.29575471698113204,
+            "y": 0.38811881188118813,
             "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
             "ioValues": [
                 {
@@ -1407,8 +1407,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -20,
-                    "currentEquation": "-20"
+                    "ioValue": -29,
+                    "currentEquation": "-29"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1510,6 +1510,21 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1268867924528302,
+                    "y": 0.7069306930693069,
+                    "uniqueID": "233275c6-8b38-4d43-ba3f-76c6eaee1cc7",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 40,
+                            "currentEquation": "40"
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
@@ -1568,8 +1583,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.5858490566037736,
-            "y": 0.5089108910891089,
+            "x": 0.5872641509433962,
+            "y": 0.502970297029703,
             "uniqueID": "25971284-8fc8-41f2-9213-31820dacc0a7",
             "ioValues": [
                 {
@@ -1587,7 +1602,7 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.38962264150943393,
+            "x": 0.3943396226415094,
             "y": 0.16237623762376238,
             "uniqueID": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e",
             "ioValues": [
@@ -1681,6 +1696,13 @@
             "ap2Primary": false,
             "ap1ID": "25971284-8fc8-41f2-9213-31820dacc0a7",
             "ap2ID": "a9842c5e-db54-4e4f-842e-78219926fd56"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": "3e8449a6-0c67-4b74-ae09-ab46ed85f26e",
+            "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
         }
     ],
     "unitsKey": "MM",
