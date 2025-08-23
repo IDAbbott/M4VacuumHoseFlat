@@ -636,8 +636,8 @@
         {
             "atomType": "Molecule",
             "name": "Rect1",
-            "x": 0.3438679245283019,
-            "y": 0.07524752475247524,
+            "x": 0.2528301886792453,
+            "y": 0.12079207920792079,
             "uniqueID": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -668,12 +668,12 @@
                         {
                             "name": "x length",
                             "ioValue": 158,
-                            "currentEquation": null
+                            "currentEquation": "158"
                         },
                         {
                             "name": "y length",
-                            "ioValue": 60,
-                            "currentEquation": null
+                            "ioValue": 58,
+                            "currentEquation": "58"
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -713,17 +713,17 @@
                         {
                             "name": "xDist",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 30,
-                            "currentEquation": null
+                            "ioValue": 29,
+                            "currentEquation": "29"
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0,
-                            "currentEquation": null
+                            "currentEquation": "0"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1146,8 +1146,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 53,
-                    "currentEquation": "53"
+                    "ioValue": 52,
+                    "currentEquation": "52"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1176,8 +1176,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 72,
-                    "currentEquation": "72"
+                    "ioValue": 70,
+                    "currentEquation": "70"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
