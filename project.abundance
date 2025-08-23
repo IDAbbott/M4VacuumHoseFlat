@@ -229,8 +229,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.26084905660377355,
-                    "y": 0.8079207920792079,
+                    "x": 0.28915094339622643,
+                    "y": 0.500990099009901,
                     "uniqueID": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2",
                     "ioValues": [
                         {
@@ -245,8 +245,8 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 75,
-                            "currentEquation": "75"
+                            "ioValue": 65,
+                            "currentEquation": "65"
                         },
                         {
                             "name": "z-axis degrees",
@@ -259,8 +259,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5297169811320754,
-                    "y": 0.7207920792079208,
+                    "x": 0.48396226415094334,
+                    "y": 0.49504950495049505,
                     "uniqueID": "f67eff80-47e8-4605-9724-1821539f3ff2",
                     "ioValues": [
                         {
@@ -270,8 +270,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -20,
-                            "currentEquation": "-20"
+                            "ioValue": -40,
+                            "currentEquation": "-40"
                         },
                         {
                             "name": "yDist",
@@ -280,8 +280,8 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 30,
-                            "currentEquation": "30"
+                            "ioValue": 20,
+                            "currentEquation": "20"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -359,8 +359,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8066037735849058,
-                    "y": 0.398019801980198,
+                    "x": 0.8169811320754716,
+                    "y": 0.3900990099009901,
                     "uniqueID": "201b9c7e-d169-4f7a-9e68-63f16ae86716",
                     "ioValues": [
                         {
@@ -478,8 +478,8 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 80,
-                            "currentEquation": "80"
+                            "ioValue": 110,
+                            "currentEquation": "110"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
