@@ -1146,8 +1146,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -18,
-                    "currentEquation": "-18"
+                    "ioValue": 53,
+                    "currentEquation": "53"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1176,8 +1176,8 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
+                    "ioValue": 72,
+                    "currentEquation": "72"
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1185,8 +1185,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5858490566037736,
-            "y": 0.5306930693069307,
+            "x": 0.5816037735849057,
+            "y": 0.5188118811881188,
             "uniqueID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
             "ioValues": [
                 {
@@ -1198,7 +1198,7 @@
                     "ioValue": "53147f5b-c8f6-414f-89d2-8bb651a41ebe"
                 },
                 {
-                    "name": "Shape 5",
+                    "name": "Shape 6",
                     "ioValue": "1870aade-ed33-4aa0-b049-86329fb1b15f"
                 }
             ],
@@ -1207,13 +1207,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.29245283018867924,
-            "y": 0.6039603960396039,
+            "x": 0.36886792452830186,
+            "y": 0.7287128712871287,
             "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
+                    "ioValue": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
                     "currentEquation": null
                 },
                 {
@@ -1301,8 +1301,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.10943396226415095,
-            "y": 0.712871287128713,
+            "x": 0.22924528301886793,
+            "y": 0.8613861386138614,
             "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1314,7 +1314,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1329,21 +1335,59 @@
                     "type": "STL",
                     "repoOwner": "IDAbbott",
                     "repoName": "M4VacuumHoseFlat"
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.25566037735849056,
+                    "y": 0.5148514851485149,
+                    "uniqueID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0,
+                            "currentEquation": "0"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 70,
+                            "currentEquation": "70"
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
+                    "ap2ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
+                    "ap2ID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
-            "ap2ID": "1870aade-ed33-4aa0-b049-86329fb1b15f"
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
@@ -1395,7 +1439,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "Shape 5",
+            "ap2Name": "Shape 6",
             "ap2Primary": false,
             "ap1ID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
             "ap2ID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c"
@@ -1413,6 +1457,13 @@
             "ap2Primary": false,
             "ap1ID": "53b00038-dbe2-4e95-a41a-cf5c291a6be5",
             "ap2ID": "6dc516d9-80d9-4eac-bbff-4c6856ffcd31"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
+            "ap2ID": "1870aade-ed33-4aa0-b049-86329fb1b15f"
         }
     ],
     "unitsKey": "MM",
