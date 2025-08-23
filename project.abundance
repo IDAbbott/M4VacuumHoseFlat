@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "27cf9688-faac-4509-a819-22982a4d46b7",
+                    "ioValue": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
                     "currentEquation": null
                 }
             ],
@@ -35,36 +35,6 @@
             "type": "STL",
             "repoOwner": "IDAbbott",
             "repoName": "M4VacuumHoseFlat"
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.32311320754716977,
-            "y": 0.5405940594059405,
-            "uniqueID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": "0"
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 42,
-                    "currentEquation": "42"
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "Difference",
@@ -1213,11 +1183,11 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
-            "atomType": "Fusion",
-            "name": "Fusion",
-            "x": 0.594811320754717,
-            "y": 0.4633663366336634,
-            "uniqueID": "27cf9688-faac-4509-a819-22982a4d46b7",
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.5716981132075472,
+            "y": 0.5108910891089109,
+            "uniqueID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
             "ioValues": [
                 {
                     "name": "Shape 1",
@@ -1226,14 +1196,73 @@
                 {
                     "name": "Shape 2",
                     "ioValue": "53147f5b-c8f6-414f-89d2-8bb651a41ebe"
-                },
-                {
-                    "name": "Shape 3",
-                    "ioValue": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4"
                 }
             ],
-            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-            "unionType": "Fusion"
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.6245283018867924,
+            "y": 0.7722772277227722,
+            "uniqueID": "853294d0-6737-4c23-b7ac-00d3bd2a1718",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "M4VacuumHoseFlat",
+                    "currentEquation": null
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "STEP",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": "STEP",
+            "resolution": 96,
+            "importIndex": 0,
+            "partName": "M4VacuumHoseFlat"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.28820754716981134,
+            "y": 0.6059405940594059,
+            "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": "0"
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -1242,14 +1271,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
-            "ap2ID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap2Primary": false,
-            "ap1ID": "ae171e4a-8a1c-4305-999b-90d1cbfecfc4",
-            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
+            "ap2ID": "1870aade-ed33-4aa0-b049-86329fb1b15f"
         },
         {
             "ap1Name": "geometry",
@@ -1284,21 +1306,28 @@
             "ap2Name": "Shape 2",
             "ap2Primary": false,
             "ap1ID": "53147f5b-c8f6-414f-89d2-8bb651a41ebe",
-            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
+            "ap2ID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 1",
             "ap2Primary": false,
             "ap1ID": "42fa4cd6-2a81-4fe5-a442-c2266767e42d",
-            "ap2ID": "27cf9688-faac-4509-a819-22982a4d46b7"
+            "ap2ID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c"
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": "27cf9688-faac-4509-a819-22982a4d46b7",
+            "ap1ID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
             "ap2ID": "2e380851-12d8-415b-af9a-2e132228421d"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": "7c525c8c-2b0a-4595-b9e3-8c22ba59dc3c",
+            "ap2ID": "853294d0-6737-4c23-b7ac-00d3bd2a1718"
         }
     ],
     "unitsKey": "MM",
