@@ -179,8 +179,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9707547169811321,
-                    "y": 0.500990099009901,
+                    "x": 0.9650943396226416,
+                    "y": 0.4851485148514852,
                     "uniqueID": "02b01aa4-f2bb-4284-be1a-b5eb02f659b6",
                     "ioValues": [
                         {
@@ -221,7 +221,7 @@
                         {
                             "name": "diameter",
                             "ioValue": 50,
-                            "currentEquation": null
+                            "currentEquation": "50"
                         }
                     ],
                     "description": "Creates a new circle."
@@ -329,8 +329,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.35,
-                    "y": 0.15841584158415842,
+                    "x": 0.35141509433962265,
+                    "y": 0.1722772277227723,
                     "uniqueID": "30d13aef-3758-4c3d-9227-a8449d95603a",
                     "ioValues": [
                         {
@@ -340,8 +340,8 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 80,
-                            "currentEquation": "80"
+                            "ioValue": 75,
+                            "currentEquation": "75"
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -405,6 +405,56 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Loft",
+                    "name": "Loft",
+                    "x": 0.17830188679245285,
+                    "y": 0.4811881188118811,
+                    "uniqueID": "05a1c856-a6be-45a9-8349-464cc15334ca",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "",
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Shape 1",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Joins two or more shapes into a single solid by filling in the space between them.",
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.040566037735849055,
+                    "y": 0.4178217821782178,
+                    "uniqueID": "cf726cf9-6725-45a3-99dc-fc1c6a674c8e",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": "10"
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.03537735849056604,
+                    "y": 0.6554455445544555,
+                    "uniqueID": "699584a7-efc3-4837-b71c-ef2faf6685b7",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10,
+                            "currentEquation": "10"
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [
