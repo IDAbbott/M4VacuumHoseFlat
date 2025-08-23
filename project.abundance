@@ -194,8 +194,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.1089622641509434,
-                    "y": 0.2811881188118812,
+                    "x": 0.14575471698113207,
+                    "y": 0.16435643564356436,
                     "uniqueID": "b21912d9-533c-4b5a-93f7-4b3477e105c2",
                     "ioValues": [
                         {
@@ -259,8 +259,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.5264150943396226,
-                    "y": 0.7168316831683169,
+                    "x": 0.5297169811320754,
+                    "y": 0.7207920792079208,
                     "uniqueID": "f67eff80-47e8-4605-9724-1821539f3ff2",
                     "ioValues": [
                         {
@@ -270,8 +270,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -70,
-                            "currentEquation": "-70"
+                            "ioValue": -20,
+                            "currentEquation": "-20"
                         },
                         {
                             "name": "yDist",
@@ -289,8 +289,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6820754716981132,
-                    "y": 0.3326732673267327,
+                    "x": 0.6825471698113208,
+                    "y": 0.3227722772277228,
                     "uniqueID": "cea1db65-48d5-429e-a08f-4e1e20a91506",
                     "ioValues": [
                         {
@@ -359,8 +359,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.8056603773584905,
-                    "y": 0.40594059405940597,
+                    "x": 0.8066037735849058,
+                    "y": 0.398019801980198,
                     "uniqueID": "201b9c7e-d169-4f7a-9e68-63f16ae86716",
                     "ioValues": [
                         {
@@ -448,8 +448,8 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 36,
-                            "currentEquation": "36"
+                            "ioValue": 38,
+                            "currentEquation": "38"
                         }
                     ],
                     "description": "Creates a new circle."
@@ -457,8 +457,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.10047169811320755,
-                    "y": 0.5584158415841584,
+                    "x": 0.10849056603773585,
+                    "y": 0.5227722772277228,
                     "uniqueID": "dc26fba1-80c6-4483-9b46-387ce5e47a17",
                     "ioValues": [
                         {
@@ -487,8 +487,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.1018867924528302,
-                    "y": 0.4178217821782178,
+                    "x": 0.11320754716981131,
+                    "y": 0.30495049504950494,
                     "uniqueID": "ec71c832-4f2f-4cc1-af01-aa62f22b3330",
                     "ioValues": [
                         {
