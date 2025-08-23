@@ -164,8 +164,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6825471698113208,
-                    "y": 0.3227722772277228,
+                    "x": 0.6122641509433963,
+                    "y": 0.46732673267326735,
                     "uniqueID": "cea1db65-48d5-429e-a08f-4e1e20a91506",
                     "ioValues": [
                         {
@@ -492,8 +492,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5570754716981132,
-                    "y": 0.6712871287128713,
+                    "x": 0.5023584905660378,
+                    "y": 0.5663366336633663,
                     "uniqueID": "ef64469d-5d74-4dbd-9001-4314a8838cdb",
                     "ioValues": [
                         {
@@ -712,8 +712,8 @@
                                 },
                                 {
                                     "name": "y-axis degrees",
-                                    "ioValue": 70,
-                                    "currentEquation": "70"
+                                    "ioValue": -70,
+                                    "currentEquation": "-70"
                                 },
                                 {
                                     "name": "z-axis degrees",
