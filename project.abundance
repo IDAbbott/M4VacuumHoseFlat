@@ -1453,19 +1453,25 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "b26637aa-a8a3-44b9-9b1f-9955a3b35a56",
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.264622641509434,
-                    "y": 0.36435643564356435,
+                    "x": 0.2627358490566038,
+                    "y": 0.3603960396039604,
                     "uniqueID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
+                            "ioValue": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
                             "currentEquation": null
                         },
                         {
@@ -1489,8 +1495,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1268867924528302,
-                    "y": 0.7069306930693069,
+                    "x": 0.13018867924528302,
+                    "y": 0.699009900990099,
                     "uniqueID": "233275c6-8b38-4d43-ba3f-76c6eaee1cc7",
                     "ioValues": [
                         {
@@ -1534,8 +1540,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.42547169811320756,
-                    "y": 0.594059405940594,
+                    "x": 0.4216981132075472,
+                    "y": 0.5762376237623762,
                     "uniqueID": "b26637aa-a8a3-44b9-9b1f-9955a3b35a56",
                     "ioValues": [
                         {
@@ -1574,19 +1580,13 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.09575471698113207,
-                    "y": 0.45544554455445546,
-                    "uniqueID": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
-                    "ioValues": [
-                        {
-                            "name": "SVG Width",
-                            "ioValue": 5,
-                            "currentEquation": null
-                        }
-                    ],
+                    "x": 0.15188679245283018,
+                    "y": 0.30297029702970296,
+                    "uniqueID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
+                    "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "M4FlatHoseBase.SVG",
-                    "type": "SVG",
+                    "fileName": "M4FlatHoseBase.stl",
+                    "type": "STL",
                     "repoOwner": "IDAbbott",
                     "repoName": "M4VacuumHoseFlat"
                 }
@@ -1631,7 +1631,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
+                    "ap1ID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
                     "ap2ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e"
                 }
             ],
