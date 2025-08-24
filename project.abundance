@@ -1465,7 +1465,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "",
+                            "ioValue": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
                             "currentEquation": null
                         },
                         {
@@ -1626,6 +1626,13 @@
                     "ap2Primary": false,
                     "ap1ID": "afd9a130-fa13-4852-9ea1-b13292f9aa4c",
                     "ap2ID": "b26637aa-a8a3-44b9-9b1f-9955a3b35a56"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
+                    "ap2ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e"
                 }
             ],
             "fileTypeVersion": 1,
