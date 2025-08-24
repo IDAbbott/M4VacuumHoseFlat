@@ -574,8 +574,8 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 100,
-                            "currentEquation": "100"
+                            "ioValue": 50,
+                            "currentEquation": "50"
                         },
                         {
                             "name": "y length",
@@ -608,8 +608,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3627358490566038,
-                    "y": 0.32673267326732675,
+                    "x": 0.3608490566037736,
+                    "y": 0.29504950495049503,
                     "uniqueID": "23564c6b-9c52-4d0f-90e4-ea07f335879c",
                     "ioValues": [
                         {
@@ -619,8 +619,8 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0,
-                            "currentEquation": "0"
+                            "ioValue": -25,
+                            "currentEquation": "-25"
                         },
                         {
                             "name": "yDist",
@@ -638,8 +638,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.4556603773584906,
-                    "y": 0.20198019801980197,
+                    "x": 0.45660377358490567,
+                    "y": 0.19207920792079208,
                     "uniqueID": "d615c931-1130-4dcb-8aff-d95c4600703e",
                     "ioValues": [
                         {
@@ -1521,8 +1521,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6608490566037736,
-            "y": 0.8079207920792079,
+            "x": 0.6622641509433963,
+            "y": 0.80990099009901,
             "uniqueID": "a9842c5e-db54-4e4f-842e-78219926fd56",
             "ioValues": [
                 {
