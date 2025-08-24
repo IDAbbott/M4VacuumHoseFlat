@@ -1440,8 +1440,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.21462264150943394,
-            "y": 0.32475247524752476,
+            "x": 0.2117924528301887,
+            "y": 0.3089108910891089,
             "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1585,7 +1585,7 @@
                         }
                     ],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "M4FlatHoseBase1.svg",
+                    "fileName": "M4FlatHoseBase.SVG",
                     "type": "SVG",
                     "repoOwner": "IDAbbott",
                     "repoName": "M4VacuumHoseFlat"
