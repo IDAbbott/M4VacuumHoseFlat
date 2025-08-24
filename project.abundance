@@ -14,13 +14,7 @@
             "x": 0.9518867924528301,
             "y": 0.5148514851485149,
             "uniqueID": "2e380851-12d8-415b-af9a-2e132228421d",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "53b00038-dbe2-4e95-a41a-cf5c291a6be5",
-                    "currentEquation": null
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -31,8 +25,8 @@
             "uniqueID": "f9ede33d-e9f2-468b-852e-7c85adfdc009",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "M4FlatHoseBase2.stl",
-            "type": "STL",
+            "fileName": null,
+            "type": null,
             "repoOwner": "IDAbbott",
             "repoName": "M4VacuumHoseFlat"
         },
@@ -837,8 +831,8 @@
         {
             "atomType": "Molecule",
             "name": "topBlock",
-            "x": 0.21132075471698114,
-            "y": 0.10297029702970296,
+            "x": 0.2179245283018868,
+            "y": 0.11089108910891089,
             "uniqueID": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1446,8 +1440,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.21415094339622642,
-            "y": 0.36237623762376237,
+            "x": 0.21462264150943394,
+            "y": 0.32475247524752476,
             "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1459,25 +1453,25 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "b26637aa-a8a3-44b9-9b1f-9955a3b35a56",
-                            "currentEquation": null
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.12547169811320755,
-                    "y": 0.452970297029703,
+                    "x": 0.12169811320754717,
+                    "y": 0.44752475247524753,
                     "uniqueID": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "SVG Width",
+                            "ioValue": 5,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "M4FlatHoseBase2.stl",
-                    "type": "STL",
+                    "fileName": "MBasePivot.svg",
+                    "type": "SVG",
                     "repoOwner": "IDAbbott",
                     "repoName": "M4VacuumHoseFlat"
                 },
@@ -1700,8 +1694,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.589622641509434,
-            "y": 0.4930693069306931,
+            "x": 0.5919811320754716,
+            "y": 0.499009900990099,
             "uniqueID": "e1ef1bf5-bc57-463b-9a68-01a362371cfd",
             "ioValues": [
                 {
