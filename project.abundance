@@ -1457,25 +1457,6 @@
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
-                    "atomType": "Import",
-                    "name": "Import",
-                    "x": 0.12264150943396228,
-                    "y": 0.42772277227722777,
-                    "uniqueID": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
-                    "ioValues": [
-                        {
-                            "name": "SVG Width",
-                            "ioValue": 5,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "M4FlatHoseBase.svg",
-                    "type": "SVG",
-                    "repoOwner": "IDAbbott",
-                    "repoName": "M4VacuumHoseFlat"
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.264622641509434,
@@ -1484,7 +1465,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
+                            "ioValue": "",
                             "currentEquation": null
                         },
                         {
@@ -1589,16 +1570,28 @@
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.09575471698113207,
+                    "y": 0.45544554455445546,
+                    "uniqueID": "91362c55-45c7-4f6b-87b5-1f3b65f1f9c6",
+                    "ioValues": [
+                        {
+                            "name": "SVG Width",
+                            "ioValue": 5,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "M4FlatHoseBase1.svg",
+                    "type": "SVG",
+                    "repoOwner": "IDAbbott",
+                    "repoName": "M4VacuumHoseFlat"
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "ae8d5945-8b01-4bac-9ed2-54ebac8807a7",
-                    "ap2ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e"
-                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
