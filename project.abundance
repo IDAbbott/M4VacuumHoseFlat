@@ -1470,7 +1470,7 @@
                         }
                     ],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "MBasePivot.svg",
+                    "fileName": "M4FlatHoseBase.stl",
                     "type": "SVG",
                     "repoOwner": "IDAbbott",
                     "repoName": "M4VacuumHoseFlat"
