@@ -281,10 +281,22 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.26012058570198104,
-      "y": 0.6976744186046512,
+      "x": 0.2170542635658915,
+      "y": 0.638477801268499,
       "uniqueID": "8c069298-3247-466b-9c48-a5131119d58a",
       "name": "Exhaust",
+      "ioValues": [
+        {
+          "name": "Input (1)",
+          "ioValue": 34,
+          "currentEquation": "34"
+        },
+        {
+          "name": "Input (2)",
+          "ioValue": 38,
+          "currentEquation": "38"
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -756,6 +768,22 @@
               "ioValue": -40
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-225",
+          "name": "Input (1)",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.23076923076923078,
+          "uniqueID": "id-228",
+          "name": "Input (2)",
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -873,6 +901,16 @@
           "ap2Name": "Shape 4",
           "ap1ID": "974cb1e6-1911-4719-b624-9d229222850e",
           "ap2ID": "ef64469d-5d74-4dbd-9001-4314a8838cdb"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-225",
+          "ap2ID": "cf726cf9-6725-45a3-99dc-fc1c6a674c8e"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-228",
+          "ap2ID": "699584a7-efc3-4837-b71c-ef2faf6685b7"
         }
       ],
       "fileTypeVersion": 1
@@ -1279,14 +1317,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
-      "uniqueID": "id-222",
-      "name": "Input (1)",
-      "type": "number"
     }
   ],
   "allConnectors": [
@@ -1364,8 +1394,7 @@
       "ap2Name": "geometry",
       "ap1ID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
       "ap2ID": "1870aade-ed33-4aa0-b049-86329fb1b15f"
-    },
-    null
+    }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
