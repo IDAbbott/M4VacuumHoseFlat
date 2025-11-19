@@ -1302,6 +1302,76 @@
           "repoOwner": "IDAbbott",
           "repoName": "M4VacuumHoseFlat",
           "SVGwidth": 10
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.15503875968992248,
+          "y": 0.6004228329809725,
+          "uniqueID": "id-239",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 50,
+              "currentEquation": "50"
+            },
+            {
+              "name": "y length",
+              "ioValue": 5,
+              "currentEquation": "5"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.3350559862187769,
+          "y": 0.5898520084566596,
+          "uniqueID": "id-243",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 300,
+              "currentEquation": "300"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2550387596899225,
+          "y": 0.6004228329809725,
+          "uniqueID": "id-249"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.43505598621877695,
+          "y": 0.5898520084566596,
+          "uniqueID": "id-253",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 30,
+              "currentEquation": "30"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -60,
+              "currentEquation": "-60"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 20,
+              "currentEquation": "20"
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1314,6 +1384,21 @@
           "ap2Name": "geometry",
           "ap1ID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
           "ap2ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-239",
+          "ap2ID": "id-249"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-243",
+          "ap2ID": "id-253"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-249",
+          "ap2ID": "id-243"
         }
       ],
       "fileTypeVersion": 1
