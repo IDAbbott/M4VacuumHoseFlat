@@ -1620,10 +1620,6 @@
             {
               "name": "Shape 2",
               "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
             }
           ]
         },
@@ -1655,8 +1651,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.48837209302325585,
-          "y": 0.6955602536997886,
+          "x": 0.434108527131783,
+          "y": 0.6976744186046512,
           "uniqueID": "id-743",
           "ioValues": [
             {
@@ -1673,6 +1669,180 @@
               "name": "zDist",
               "ioValue": 23.5,
               "currentEquation": "23.5"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5383720930232558,
+          "y": 0.6455602536997885,
+          "uniqueID": "id-756",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -60
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5383720930232558,
+          "y": 0.6455602536997885,
+          "uniqueID": "id-762",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -60
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5383720930232558,
+          "y": 0.6455602536997885,
+          "uniqueID": "id-768",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -60
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5383720930232558,
+          "y": 0.6455602536997885,
+          "uniqueID": "id-774",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -55,
+              "currentEquation": "-55"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5073212747631353,
+          "y": 0.9619450317124735,
+          "uniqueID": "id-810",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -65,
+              "currentEquation": "-65"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.46770025839793283,
+          "y": 0.8837209302325582,
+          "uniqueID": "id-816",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -40,
+              "currentEquation": "-40"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30,
+              "currentEquation": "30"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.44702842377260976,
+          "y": 0.7928118393234672,
+          "uniqueID": "id-822",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -50,
+              "currentEquation": "-50"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 30,
+              "currentEquation": "30"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 23.5
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5753660637381568,
+          "y": 0.7780126849894292,
+          "uniqueID": "id-828",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
             }
           ]
         }
@@ -1724,9 +1894,49 @@
           "ap2ID": "id-743"
         },
         {
-          "ap2Name": "Shape 4",
+          "ap2Name": "geometry",
+          "ap1ID": "id-739",
+          "ap2ID": "id-822"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-739",
+          "ap2ID": "id-816"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-739",
+          "ap2ID": "id-810"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-739",
+          "ap2ID": "id-756"
+        },
+        {
+          "ap2Name": "Shape 3",
           "ap1ID": "id-743",
-          "ap2ID": "id-478"
+          "ap2ID": "id-828"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-774",
+          "ap2ID": "id-828"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-810",
+          "ap2ID": "id-828"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-816",
+          "ap2ID": "id-828"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-822",
+          "ap2ID": "id-828"
         }
       ],
       "fileTypeVersion": 1
