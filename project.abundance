@@ -1504,14 +1504,14 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3731266149870801,
-          "y": 0.5856236786469344,
+          "x": 0.3686477174849268,
+          "y": 0.5687103594080338,
           "uniqueID": "id-466",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 19,
-              "currentEquation": "19"
+              "ioValue": 20,
+              "currentEquation": "20"
             },
             {
               "name": "yDist",
@@ -1520,8 +1520,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 23.5,
+              "currentEquation": "23.5"
             }
           ]
         },
@@ -1542,15 +1542,15 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -45,
-              "currentEquation": "-45"
+              "ioValue": -40,
+              "currentEquation": "-40"
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.6106804478897503,
-          "y": 0.427061310782241,
+          "x": 0.6089577950043067,
+          "y": 0.41649048625792806,
           "uniqueID": "id-478",
           "ioValues": [
             {
@@ -1594,6 +1594,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-472",
           "ap2ID": "id-478"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-478",
+          "ap2ID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59"
         }
       ],
       "fileTypeVersion": 1
