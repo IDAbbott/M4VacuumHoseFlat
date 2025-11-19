@@ -1323,8 +1323,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.3350559862187769,
-          "y": 0.5898520084566596,
+          "x": 0.2859603789836348,
+          "y": 0.6109936575052854,
           "uniqueID": "id-243",
           "ioValues": [
             {
@@ -1339,47 +1339,49 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 300,
-              "currentEquation": "300"
+              "ioValue": 30,
+              "currentEquation": "30"
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.2550387596899225,
-          "y": 0.6004228329809725,
-          "uniqueID": "id-249"
+          "x": 0.3807062876830319,
+          "y": 0.6067653276955602,
+          "uniqueID": "id-249",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 5,
+              "currentEquation": "5"
+            }
+          ]
         },
         {
           "atomType": "Move",
-          "x": 0.43505598621877695,
-          "y": 0.5898520084566596,
+          "x": 0.5150732127476314,
+          "y": 0.6046511627906977,
           "uniqueID": "id-253",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 50,
+              "currentEquation": "50"
             },
             {
               "name": "yDist",
-              "ioValue": -60,
-              "currentEquation": "-60"
+              "ioValue": -30,
+              "currentEquation": "-30"
             },
             {
               "name": "zDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 30,
+              "currentEquation": "30"
             }
           ]
         }
       ],
       "allConnectors": [
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
-          "ap2ID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59"
-        },
         {
           "ap2Name": "geometry",
           "ap1ID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
@@ -1388,16 +1390,6 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-239",
-          "ap2ID": "id-249"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-243",
-          "ap2ID": "id-253"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-249",
           "ap2ID": "id-243"
         }
       ],
