@@ -2287,7 +2287,7 @@
         {
           "atomType": "Extrude",
           "x": 0.22260869565217392,
-          "y": 0.5735294117647058,
+          "y": 0.5840336134453782,
           "uniqueID": "id-1157",
           "ioValues": [
             {
@@ -2353,8 +2353,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.12260869565217392,
-          "y": 0.8781512605042017,
+          "x": 0.13217391304347825,
+          "y": 0.8592436974789915,
           "uniqueID": "id-1178",
           "ioValues": [
             {
@@ -2407,8 +2407,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.3869565217391304,
-          "y": 0.7415966386554622,
+          "x": 0.46,
+          "y": 0.7584033613445378,
           "uniqueID": "id-1192",
           "ioValues": [
             {
@@ -2429,17 +2429,265 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 90,
+              "currentEquation": "90"
             }
           ]
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.06,
+          "y": 0.42857142857142855,
+          "uniqueID": "id-1203",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1205"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.1726086956521739,
+              "y": 0.5235294117647058,
+              "uniqueID": "id-1211",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 154.5
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.27260869565217394,
+              "y": 0.5340336134453781,
+              "uniqueID": "id-1212",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 17
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3726086956521739,
+              "y": 0.5235294117647058,
+              "uniqueID": "id-1213",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 12.5
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.17347826086956525,
+              "y": 0.6558823529411764,
+              "uniqueID": "id-1214",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 62.5
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.28304347826086956,
+              "y": 0.672689075630252,
+              "uniqueID": "id-1215",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 19
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.5804347826086956,
+              "y": 0.5487394957983193,
+              "uniqueID": "id-1216"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.18217391304347824,
+              "y": 0.8092436974789915,
+              "uniqueID": "id-1217",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 200
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 200
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.27260869565217394,
+              "y": 0.8281512605042016,
+              "uniqueID": "id-1218",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 20
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3726086956521739,
+              "y": 0.8281512605042016,
+              "uniqueID": "id-1219",
+              "ioValues": [
+                {
+                  "name": "xDist",
+                  "ioValue": 100
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Assembly",
+              "x": 0.51,
+              "y": 0.7084033613445377,
+              "uniqueID": "id-1220",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": null
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.6769565217391305,
+              "y": 0.5277310924369747,
+              "uniqueID": "id-1221",
+              "ioValues": [
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 90
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1211",
+              "ap2ID": "id-1212"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1212",
+              "ap2ID": "id-1213"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-1213",
+              "ap2ID": "id-1216"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1214",
+              "ap2ID": "id-1215"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-1215",
+              "ap2ID": "id-1220"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1216",
+              "ap2ID": "id-1221"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1217",
+              "ap2ID": "id-1218"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1218",
+              "ap2ID": "id-1219"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-1219",
+              "ap2ID": "id-1220"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-1220",
+              "ap2ID": "id-1216"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5,
+          "y": 0.5,
+          "uniqueID": "id-1207",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [
