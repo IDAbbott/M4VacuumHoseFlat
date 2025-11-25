@@ -1677,17 +1677,19 @@
         },
         {
           "atomType": "Move",
-          "x": 0.33619909502262446,
-          "y": 0.7020833333333333,
+          "x": 0.34705882352941175,
+          "y": 0.6895833333333333,
           "uniqueID": "id-2810",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -20,
+              "currentEquation": "-20"
             },
             {
               "name": "zDist",
@@ -1704,13 +1706,34 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 30,
-              "currentEquation": "30"
+              "ioValue": 40,
+              "currentEquation": "40"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5782805429864253,
+          "y": 0.20625,
+          "uniqueID": "id-2820",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
+          "ap2ID": "id-2820"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
@@ -1767,6 +1790,11 @@
           "ap2ID": "id-2793"
         },
         {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-2793",
+          "ap2ID": "id-2820"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-2806",
           "ap2ID": "id-2810"
@@ -1780,6 +1808,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-2817",
           "ap2ID": "id-2806"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2820",
+          "ap2ID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59"
         }
       ],
       "fileTypeVersion": 1
