@@ -1576,8 +1576,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3,
-          "y": 0.11249999999999999,
+          "x": 0.5868778280542987,
+          "y": 0.525,
           "uniqueID": "1006e4a6-5a8c-4064-8085-b3049a1a006e",
           "ioValues": [
             {
@@ -1598,8 +1598,8 @@
         },
         {
           "atomType": "Import",
-          "x": 0.14039621016365203,
-          "y": 0.1627906976744186,
+          "x": 0.45520361990950226,
+          "y": 0.5125000000000001,
           "uniqueID": "4815c71a-0871-4480-8b0d-543d82f8eb0e",
           "fileName": "M4FlatHoseBase.stl",
           "name": "Import",
@@ -1759,8 +1759,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.4257918552036199,
-          "y": 0.70625,
+          "x": 0.4271493212669683,
+          "y": 0.8145833333333333,
           "uniqueID": "id-2788",
           "ioValues": [
             {
@@ -1779,8 +1779,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5,
-          "y": 0.45416666666666666,
+          "x": 0.5099547511312217,
+          "y": 0.79375,
           "uniqueID": "id-2793"
         },
         {
@@ -1833,8 +1833,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5782805429864253,
-          "y": 0.20625,
+          "x": 0.7054298642533937,
+          "y": 0.6666666666666666,
           "uniqueID": "id-2820",
           "ioValues": [
             {
@@ -1846,6 +1846,78 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1914027149321267,
+          "y": 0.13958333333333334,
+          "uniqueID": "id-2825",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 40,
+              "currentEquation": "40"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.29773755656108597,
+          "y": 0.16249999999999998,
+          "uniqueID": "id-2828",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 3,
+              "currentEquation": "3"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.43755656108597285,
+          "y": 0.13541666666666666,
+          "uniqueID": "id-2832",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4877828054298643,
+          "y": 0.3208333333333333,
+          "uniqueID": "id-2845",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.551131221719457,
+          "y": 0.20625,
+          "uniqueID": "id-2851"
         }
       ],
       "allConnectors": [
@@ -1878,6 +1950,11 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-2729",
           "ap2ID": "id-2793"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2729",
+          "ap2ID": "id-2845"
         },
         {
           "ap2Name": "geometry",
@@ -1933,6 +2010,26 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-2820",
           "ap2ID": "a78729ab-a6d2-4762-8bae-d9b5f3950a59"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2825",
+          "ap2ID": "id-2828"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2828",
+          "ap2ID": "id-2832"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-2832",
+          "ap2ID": "id-2851"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-2845",
+          "ap2ID": "id-2851"
         }
       ],
       "fileTypeVersion": 1
