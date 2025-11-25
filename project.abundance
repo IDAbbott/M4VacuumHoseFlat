@@ -1833,8 +1833,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7054298642533937,
-          "y": 0.6666666666666666,
+          "x": 0.7085972850678732,
+          "y": 0.59375,
           "uniqueID": "id-2820",
           "ioValues": [
             {
@@ -1843,6 +1843,10 @@
             },
             {
               "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
               "ioValue": null
             }
           ]
@@ -1855,8 +1859,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 45,
+              "currentEquation": "45"
             }
           ]
         },
@@ -1881,15 +1885,18 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": -23,
+              "currentEquation": "-23"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 23,
+              "currentEquation": "23"
             }
           ]
         },
@@ -2030,6 +2037,11 @@
           "ap2Name": "geometry2",
           "ap1ID": "id-2845",
           "ap2ID": "id-2851"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-2851",
+          "ap2ID": "id-2820"
         }
       ],
       "fileTypeVersion": 1
