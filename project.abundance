@@ -1490,8 +1490,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.13755656108597286,
-          "y": 0.39375000000000004,
+          "x": 0.13800904977375567,
+          "y": 0.3979166666666667,
           "uniqueID": "id-2719",
           "ioValues": [
             {
@@ -1516,14 +1516,14 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.23755656108597287,
-          "y": 0.39375000000000004,
+          "x": 0.23665158371040726,
+          "y": 0.3770833333333333,
           "uniqueID": "id-2725",
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 3,
-              "currentEquation": "3"
+              "ioValue": 5,
+              "currentEquation": "5"
             }
           ]
         },
@@ -1545,8 +1545,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 20,
-              "currentEquation": "20"
+              "ioValue": 23.5,
+              "currentEquation": "23.5"
             }
           ]
         },
@@ -1584,8 +1584,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.4610859728506787,
-          "y": 0.16249999999999998,
+          "x": 0.46199095022624437,
+          "y": 0.175,
           "uniqueID": "id-2749",
           "ioValues": [
             {
@@ -1618,7 +1618,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-circle-80-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-0-60-20",
+                "geometry": "move-extrude-circle-80-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-5-0-60-23.5",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1644,6 +1644,56 @@
             }
           ],
           "unionType": "Fusion"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.13936651583710408,
+          "y": 0.83125,
+          "uniqueID": "id-2754",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 160,
+              "currentEquation": "160"
+            },
+            {
+              "name": "y length",
+              "ioValue": 80,
+              "currentEquation": "80"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.23936651583710408,
+          "y": 0.83125,
+          "uniqueID": "id-2758",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3393665158371041,
+          "y": 0.83125,
+          "uniqueID": "id-2762",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1681,6 +1731,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-2735",
           "ap2ID": "id-2739"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2754",
+          "ap2ID": "id-2758"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2758",
+          "ap2ID": "id-2762"
         }
       ],
       "fileTypeVersion": 1
