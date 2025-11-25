@@ -1509,8 +1509,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 85,
-              "currentEquation": "85"
+              "ioValue": 56,
+              "currentEquation": "56"
             }
           ]
         },
@@ -1574,7 +1574,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 45,
+              "currentEquation": "45"
             },
             {
               "name": "zDist",
@@ -1689,8 +1690,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 120,
-              "currentEquation": "120"
+              "ioValue": 100,
+              "currentEquation": "100"
             },
             {
               "name": "zDist",
@@ -1700,79 +1701,32 @@
           ]
         },
         {
-          "atomType": "Fusion",
-          "x": 0.43800904977375565,
-          "y": 0.6791666666666667,
-          "uniqueID": "id-2768",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-extrude-circle-42.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-0-20",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-extrude-rectangle-160-80-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-120-20",
-                "dimension": "3D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
-            }
-          ],
-          "unionType": "Fusion"
-        },
-        {
           "atomType": "Difference",
-          "x": 0.5538461538461539,
-          "y": 0.34375,
+          "x": 0.5542986425339366,
+          "y": 0.3354166666666667,
           "uniqueID": "id-2773"
         },
         {
           "atomType": "Assembly",
-          "x": 0.5823529411764706,
-          "y": 0.6333333333333333,
+          "x": 0.5909502262443439,
+          "y": 0.625,
           "uniqueID": "id-2777",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.4438914027149321,
+          "y": 0.6270833333333333,
+          "uniqueID": "id-2782",
           "ioValues": [
             {
               "name": "Shape 1",
@@ -1824,7 +1778,7 @@
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-2739",
-          "ap2ID": "id-2768"
+          "ap2ID": "id-2782"
         },
         {
           "ap2Name": "geometry1",
@@ -1849,16 +1803,16 @@
         {
           "ap2Name": "Shape 2",
           "ap1ID": "id-2762",
-          "ap2ID": "id-2768"
+          "ap2ID": "id-2782"
         },
         {
           "ap2Name": "geometry2",
-          "ap1ID": "id-2768",
+          "ap1ID": "id-2782",
           "ap2ID": "id-2773"
         },
         {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-2768",
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-2782",
           "ap2ID": "id-2777"
         }
       ],
