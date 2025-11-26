@@ -1328,8 +1328,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.1420814479638009,
-          "y": 0.5458333333333334,
+          "x": 0.1411764705882353,
+          "y": 0.5354166666666667,
           "uniqueID": "id-2722",
           "ioValues": [
             {
@@ -1352,8 +1352,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.33665158371040727,
-          "y": 0.3875,
+          "x": 0.33212669683257917,
+          "y": 0.39166666666666666,
           "uniqueID": "id-2729",
           "ioValues": [
             {
@@ -1476,8 +1476,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5131221719457013,
-          "y": 0.7916666666666667,
+          "x": 0.5185520361990951,
+          "y": 0.8104166666666667,
           "uniqueID": "id-2793"
         },
         {
@@ -1546,27 +1546,30 @@
         },
         {
           "atomType": "Move",
-          "x": 0.43755656108597285,
-          "y": 0.13541666666666666,
+          "x": 0.43619909502262444,
+          "y": 0.11666666666666667,
           "uniqueID": "id-2832",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "yDist",
-              "ioValue": -26
+              "ioValue": -30,
+              "currentEquation": "-30"
             },
             {
               "name": "zDist",
-              "ioValue": 23
+              "ioValue": 25,
+              "currentEquation": "25"
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.4977375565610859,
+          "x": 0.49819004524886873,
           "y": 0.31875,
           "uniqueID": "id-2845",
           "ioValues": [
@@ -1576,11 +1579,13 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 2
+              "ioValue": 2,
+              "currentEquation": "2"
             }
           ]
         },
@@ -1603,8 +1608,8 @@
             },
             {
               "name": "y length",
-              "ioValue": 46,
-              "currentEquation": "46"
+              "ioValue": 40,
+              "currentEquation": "40"
             }
           ]
         },
