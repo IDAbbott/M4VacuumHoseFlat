@@ -1316,8 +1316,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.13755656108597286,
-          "y": 0.3833333333333333,
+          "x": 0.13846153846153847,
+          "y": 0.36041666666666666,
           "uniqueID": "id-2719",
           "ioValues": [
             {
@@ -1366,7 +1366,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 22
+              "ioValue": 21,
+              "currentEquation": "21"
             }
           ]
         },
@@ -1514,8 +1515,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7027149321266968,
-          "y": 0.59375,
+          "x": 0.7054298642533937,
+          "y": 0.5833333333333334,
           "uniqueID": "id-2820",
           "ioValues": [
             {
@@ -1540,7 +1541,8 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 3
+              "ioValue": 6,
+              "currentEquation": "6"
             }
           ]
         },
@@ -1562,8 +1564,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 25,
-              "currentEquation": "25"
+              "ioValue": 23,
+              "currentEquation": "23"
             }
           ]
         },
