@@ -100,8 +100,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6683893195521102,
-      "y": 0.8076109936575052,
+      "x": 0.6660633484162897,
+      "y": 0.8270833333333333,
       "uniqueID": "a9842c5e-db54-4e4f-842e-78219926fd56",
       "ioValues": [
         {
@@ -1564,8 +1564,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 23.5,
-              "currentEquation": "23.5"
+              "ioValue": 23.8,
+              "currentEquation": "23.8"
             }
           ]
         },
