@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": "266bb6d7-5b75-473d-88b2-c801a456646b",
   "name": "M4VacuumHoseFlat",
+  "ioValues": [
+    {
+      "name": "Hose_Diameter",
+      "ioValue": 34,
+      "currentEquation": "34"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -790,8 +797,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.11900452488687782,
-      "y": 0.3125,
+      "x": 0.21357466063348415,
+      "y": 0.29375,
       "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
       "name": "InportedDustCollect",
       "topLevel": false,
@@ -2226,8 +2233,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.709502262443439,
-      "y": 0.7375,
+      "x": 0.7008695652173913,
+      "y": 0.7226890756302521,
       "uniqueID": "id-4461",
       "ioValues": [
         {
@@ -2247,6 +2254,14 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "M4VacuumHoseFlat"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-4503",
+      "name": "Hose_Diameter",
+      "type": "number"
     }
   ],
   "allConnectors": [
