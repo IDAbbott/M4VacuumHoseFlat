@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Hose_Diameter",
-      "ioValue": 34
+      "ioValue": 40,
+      "currentEquation": "40"
     }
   ],
   "topLevel": true,
@@ -20,8 +21,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6515028432168968,
-      "y": 0.4957983193277311,
+      "x": 0.6539398862713242,
+      "y": 0.4873949579831932,
       "uniqueID": "53b00038-dbe2-4e95-a41a-cf5c291a6be5",
       "ioValues": [
         {
@@ -121,7 +122,7 @@
       "ioValues": [
         {
           "name": "Hose_Diameter",
-          "ioValue": 34
+          "ioValue": 40
         }
       ],
       "topLevel": false,
@@ -140,11 +141,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 47.599999999999994
+              "ioValue": 56
             },
             {
               "name": "y length",
-              "ioValue": 47.599999999999994
+              "ioValue": 56
             }
           ]
         },
@@ -259,7 +260,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-17-0-0-0",
+                "geometry": "move-circle-20-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -286,7 +287,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-19.006-0-0-0",
+                "geometry": "move-circle-22.360000000000003-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -321,7 +322,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 34
+              "ioValue": 40
             }
           ]
         },
@@ -333,7 +334,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 38.012
+              "ioValue": 44.720000000000006
             }
           ]
         },
@@ -385,7 +386,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 47.599999999999994
+              "ioValue": 56
             }
           ]
         },
@@ -418,7 +419,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 34
+              "ioValue": 40
             },
             {
               "name": "y",
@@ -496,7 +497,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 34
+              "ioValue": 40
             },
             {
               "name": "y",
@@ -566,7 +567,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-move-rotate-move-circle-17-0-0-0-0-0-0--10-0-0-{\"origin\":[-48,0,-5.329070518200751e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-30",
+                "geometry": "extrude-move-rotate-move-circle-20-0-0-0-0-0-0--10-0-0-{\"origin\":[-48,0,-5.329070518200751e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-30",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -593,7 +594,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-move-rotate-move-circle-17-0-0-0-0-0-0--20-0-0-{\"origin\":[-48,0,-5.329070518200751e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-10",
+                "geometry": "extrude-move-rotate-move-circle-20-0-0-0-0-0-0--20-0-0-{\"origin\":[-48,0,-5.329070518200751e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-10",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -620,7 +621,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-rotate-loft-move-circle-17-0-0-0-move-circle-19.006-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,110],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-60-0--40-0-24",
+                "geometry": "move-rotate-loft-move-circle-20-0-0-0-move-circle-22.360000000000003-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,110],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-60-0--40-0-24",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -675,7 +676,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 47.599999999999994
+              "ioValue": 56
             }
           ]
         }
@@ -1215,7 +1216,7 @@
       "ioValues": [
         {
           "name": "Hose_Diameter",
-          "ioValue": 34
+          "ioValue": 40
         }
       ],
       "topLevel": false,
@@ -1530,7 +1531,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40.8
+              "ioValue": 48
             },
             {
               "name": "y length",
@@ -1546,7 +1547,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 34
+              "ioValue": 40
             },
             {
               "name": "y length",
@@ -1619,7 +1620,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 34
+              "ioValue": 40
             },
             {
               "name": "y",
