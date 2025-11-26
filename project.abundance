@@ -599,8 +599,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.7072678331090174,
-          "y": 0.41806722689075626,
+          "x": 0.7039030955585465,
+          "y": 0.411764705882353,
           "uniqueID": "cea1db65-48d5-429e-a08f-4e1e20a91506"
         },
         {
@@ -903,7 +903,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -31.813200000000002
+              "ioValue": -36.75476
             }
           ]
         },
@@ -923,7 +923,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 51.8132
+              "ioValue": 58.75476
             }
           ]
         },
@@ -936,7 +936,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--21-0-0-0-51.8132",
+                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--21-0-0-0-58.75476",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -963,7 +963,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--18-0-35-0--31.813200000000002",
+                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--19-0-35-0--36.75476",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1017,7 +1017,7 @@
             {
               "name": "Shape 5",
               "ioValue": {
-                "geometry": "extrude-move-rotate-move-circle-17-0-0-0-0-0-0--21-0-0-{\"origin\":[-50,0,-5.551115123125783e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-20",
+                "geometry": "extrude-move-rotate-move-circle-17-0-0-0-0-0-0--12-0-0-{\"origin\":[-50,0,-5.551115123125783e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-20",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -1090,8 +1090,8 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -21,
-              "currentEquation": "-21"
+              "ioValue": -12,
+              "currentEquation": "-12"
             },
             {
               "name": "yDist",
@@ -1147,10 +1147,10 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.14131897711978467,
-          "y": 0.7184873949579832,
+          "x": 0.1426648721399731,
+          "y": 0.7016806722689076,
           "uniqueID": "id-4820",
-          "name": "x * y +10",
+          "name": "x * y +12",
           "ioValues": [
             {
               "name": "x",
@@ -1158,11 +1158,11 @@
             },
             {
               "name": "y",
-              "ioValue": 1.1,
-              "currentEquation": "1.1"
+              "ioValue": 1.23,
+              "currentEquation": "1.23"
             }
           ],
-          "currentEquation": "x * y +10"
+          "currentEquation": "x * y +12"
         },
         {
           "atomType": "Equation",
@@ -1177,8 +1177,8 @@
             },
             {
               "name": "y",
-              "ioValue": -1.1,
-              "currentEquation": "-1.1"
+              "ioValue": -1.23,
+              "currentEquation": "-1.23"
             }
           ],
           "currentEquation": "x * y + 10"
@@ -1191,12 +1191,13 @@
           "ioValues": [
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
-              "ioValue": -18,
-              "currentEquation": "-18"
+              "ioValue": -19,
+              "currentEquation": "-19"
             },
             {
               "name": "z-axis degrees",
