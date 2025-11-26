@@ -96,7 +96,8 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -40
+              "ioValue": -36,
+              "currentEquation": "-36"
             },
             {
               "name": "yDist",
@@ -210,7 +211,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-5-0-0-0",
+                "geometry": "move-circle-19.006-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -257,7 +258,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 38.012
             }
           ]
         },
@@ -511,7 +512,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-rotate-loft-move-circle-17-0-0-0-move-circle-5-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,110],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-70-0--40-0-10",
+                "geometry": "move-rotate-loft-move-circle-17-0-0-0-move-circle-19.006-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,110],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0-70-0--36-0-10",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -543,7 +544,7 @@
           "x": 0.0746606334841629,
           "y": 0.42708333333333337,
           "uniqueID": "id-4466",
-          "name": "x + y",
+          "name": "x * y",
           "ioValues": [
             {
               "name": "x",
@@ -551,10 +552,11 @@
             },
             {
               "name": "y",
-              "ioValue": 1
+              "ioValue": 1.118,
+              "currentEquation": "1.118"
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": "x * y"
         }
       ],
       "allConnectors": [
@@ -672,6 +674,11 @@
           "ap2Name": "geometry2",
           "ap1ID": "id-4438",
           "ap2ID": "cea1db65-48d5-429e-a08f-4e1e20a91506"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-4466",
+          "ap2ID": "699584a7-efc3-4837-b71c-ef2faf6685b7"
         }
       ],
       "fileTypeVersion": 1
