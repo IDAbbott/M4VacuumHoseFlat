@@ -2021,8 +2021,8 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 120,
-              "currentEquation": "120"
+              "ioValue": 200,
+              "currentEquation": "200"
             }
           ]
         },
@@ -2043,15 +2043,15 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 160,
-              "currentEquation": "160"
+              "ioValue": 240,
+              "currentEquation": "240"
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.31519090170593017,
-          "y": 0.6701680672268907,
+          "x": 0.31600324939073926,
+          "y": 0.6722689075630252,
           "uniqueID": "id-4949",
           "ioValues": [
             {
@@ -2117,6 +2117,72 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3476848090982941,
+          "y": 0.773109243697479,
+          "uniqueID": "id-4977",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 100,
+              "currentEquation": "100"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -100,
+              "currentEquation": "-100"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5418359057676686,
+          "y": 0.7205882352941176,
+          "uniqueID": "id-4983",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6173842404549147,
+          "y": 0.523109243697479,
+          "uniqueID": "id-4988"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.34524776604386676,
+          "y": 0.9201680672268907,
+          "uniqueID": "id-4992",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 100,
+              "currentEquation": "100"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 100,
+              "currentEquation": "100"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2152,18 +2218,33 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-4949",
-          "ap2ID": "id-4919"
+          "ap1ID": "id-4915",
+          "ap2ID": "id-4977"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-4915",
+          "ap2ID": "id-4992"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-4919",
+          "ap2ID": "id-4983"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-4937",
+          "ap2ID": "id-4983"
         },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-4949",
-          "ap2ID": "id-4937"
+          "ap2ID": "id-4919"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry1",
           "ap1ID": "id-4955",
-          "ap2ID": "id-4895"
+          "ap2ID": "id-4988"
         },
         {
           "ap2Name": "geometry",
@@ -2174,6 +2255,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-4965",
           "ap2ID": "id-4900"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-4977",
+          "ap2ID": "id-4937"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-4983",
+          "ap2ID": "id-4988"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-4988",
+          "ap2ID": "id-4895"
         }
       ],
       "fileTypeVersion": 1
