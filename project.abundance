@@ -1634,8 +1634,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.13800904977375567,
-          "y": 0.3979166666666667,
+          "x": 0.13755656108597286,
+          "y": 0.3833333333333333,
           "uniqueID": "id-2719",
           "ioValues": [
             {
@@ -1689,8 +1689,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 23,
-              "currentEquation": "23"
+              "ioValue": 22,
+              "currentEquation": "22"
             }
           ]
         },
@@ -1892,8 +1892,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": -18,
-              "currentEquation": "-18"
+              "ioValue": -24,
+              "currentEquation": "-24"
             },
             {
               "name": "zDist",
@@ -1904,8 +1904,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4877828054298643,
-          "y": 0.3208333333333333,
+          "x": 0.4977375565610859,
+          "y": 0.31875,
           "uniqueID": "id-2845",
           "ioValues": [
             {
