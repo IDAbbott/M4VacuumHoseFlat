@@ -61,8 +61,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.2971576227390181,
-      "y": 0.27906976744186046,
+      "x": 0.21538461538461537,
+      "y": 0.30624999999999997,
       "uniqueID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
       "ioValues": [
         {
@@ -170,22 +170,6 @@
         {
           "name": "height",
           "ioValue": 6
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.3742081447963801,
-      "y": 0.11458333333333334,
-      "uniqueID": "id-3190",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
         }
       ]
     },
@@ -2301,14 +2285,25 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.35610859728506783,
+      "y": 0.16041666666666665,
+      "uniqueID": "id-3697",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65",
-      "ap2ID": "42fa4cd6-2a81-4fe5-a442-c2266767e42d"
-    },
     {
       "ap2Name": "Shape 2",
       "ap1ID": "53147f5b-c8f6-414f-89d2-8bb651a41ebe",
@@ -2320,9 +2315,9 @@
       "ap2ID": "id-3200"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "geometry",
       "ap1ID": "1870aade-ed33-4aa0-b049-86329fb1b15f",
-      "ap2ID": "id-3190"
+      "ap2ID": "42fa4cd6-2a81-4fe5-a442-c2266767e42d"
     },
     {
       "ap2Name": "number or geometry",
@@ -2345,11 +2340,6 @@
       "ap2ID": "b0eccc55-f128-4473-b321-3f96de9329e2"
     },
     {
-      "ap2Name": "geometry1",
-      "ap1ID": "id-3190",
-      "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-3200",
       "ap2ID": "a9842c5e-db54-4e4f-842e-78219926fd56"
@@ -2367,12 +2357,12 @@
     {
       "ap2Name": "Shape 1",
       "ap1ID": "41ad4821-0607-487c-a2d1-9ec3ab1aef53",
-      "ap2ID": "id-3190"
+      "ap2ID": "id-3697"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "Shape 2",
       "ap1ID": "74206541-068b-4aff-8073-ac98f524bce3",
-      "ap2ID": "8f6eb012-a26c-457c-a6e8-6e42961f3e65"
+      "ap2ID": "id-3697"
     },
     {
       "ap2Name": "geometry",
