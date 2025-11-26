@@ -557,8 +557,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.3764705882352941,
-          "y": 0.6604166666666667,
+          "x": 0.3781965006729475,
+          "y": 0.6701680672268907,
           "uniqueID": "d077fe7e-61f9-40b4-ac8b-8aa01d643ca2",
           "ioValues": [
             {
@@ -602,7 +602,7 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.7039030955585465,
+          "x": 0.7065948855989234,
           "y": 0.4054621848739496,
           "uniqueID": "cea1db65-48d5-429e-a08f-4e1e20a91506"
         },
@@ -614,15 +614,15 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 120,
-              "currentEquation": "120"
+              "ioValue": 80,
+              "currentEquation": "80"
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.37381567614125755,
-          "y": 0.10359408033826638,
+          "x": 0.4643337819650067,
+          "y": 0.11134453781512604,
           "uniqueID": "71504a37-3170-4ec7-87c7-5e3e1bd7aee1",
           "ioValues": [
             {
@@ -799,12 +799,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 130,
-              "currentEquation": "130"
+              "ioValue": 150,
+              "currentEquation": "150"
             },
             {
               "name": "y length",
-              "ioValue": 120
+              "ioValue": 150,
+              "currentEquation": "150"
             }
           ]
         },
@@ -832,8 +833,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.275235531628533,
-          "y": 0.8256302521008404,
+          "x": 0.27927321668909827,
+          "y": 0.8214285714285714,
           "uniqueID": "2e385e60-6e5f-4bad-952e-1d23559a3a8b",
           "ioValues": [
             {
@@ -939,7 +940,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--32-0-0-0-75.88130000000001",
+                "geometry": "move-rotate-extrude-rectangle-150-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--32-0-0-0-75.88130000000001",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -966,7 +967,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-extrude-rectangle-130-120-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--30-0-35-0--41.8813",
+                "geometry": "move-rotate-extrude-rectangle-150-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-60-0--30-0-35-0--41.8813",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1270,6 +1271,27 @@
               "ioValue": 10
             }
           ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.39952830188679245,
+          "y": 0.10693069306930694,
+          "uniqueID": "id-4867",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 60,
+              "currentEquation": "60"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1296,7 +1318,7 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "30d13aef-3758-4c3d-9227-a8449d95603a",
-          "ap2ID": "71504a37-3170-4ec7-87c7-5e3e1bd7aee1"
+          "ap2ID": "id-4867"
         },
         {
           "ap2Name": "geometry1",
@@ -1462,6 +1484,11 @@
           "ap2Name": "Shape 7",
           "ap1ID": "id-4861",
           "ap2ID": "id-4438"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-4867",
+          "ap2ID": "71504a37-3170-4ec7-87c7-5e3e1bd7aee1"
         }
       ],
       "fileTypeVersion": 1
