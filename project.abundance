@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Hose_Diameter",
-      "ioValue": 34
+      "ioValue": 34,
+      "currentEquation": "34.0"
     }
   ],
   "topLevel": true,
@@ -1029,15 +1030,18 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": -100
+              "ioValue": -50,
+              "currentEquation": "-50"
             },
             {
               "name": "yDist",
-              "ioValue": 100
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1095,35 +1099,18 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 100
+              "ioValue": 50,
+              "currentEquation": "50"
             },
             {
               "name": "yDist",
-              "ioValue": -100
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.5418359057676686,
-          "y": 0.7205882352941176,
-          "uniqueID": "id-4983",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -1135,8 +1122,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.39398862713241267,
-          "y": 0.842436974789916,
+          "x": 0.41339491916859117,
+          "y": 0.8466386554621849,
           "uniqueID": "id-4992",
           "ioValues": [
             {
@@ -1150,6 +1137,22 @@
             {
               "name": "zDist",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5434949961508853,
+          "y": 0.6953781512605042,
+          "uniqueID": "id-6640",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
             }
           ]
         }
@@ -1196,14 +1199,14 @@
           "ap2ID": "id-4992"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-4919",
-          "ap2ID": "id-4983"
+          "ap2ID": "id-6640"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-4937",
-          "ap2ID": "id-4983"
+          "ap2ID": "id-6640"
         },
         {
           "ap2Name": "geometry",
@@ -1231,19 +1234,14 @@
           "ap2ID": "id-4937"
         },
         {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-4983",
-          "ap2ID": "id-4988"
-        },
-        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-4988",
           "ap2ID": "id-4895"
         },
         {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-4992",
-          "ap2ID": "id-4983"
+          "ap2Name": "geometry2",
+          "ap1ID": "id-6640",
+          "ap2ID": "id-4988"
         }
       ],
       "fileTypeVersion": 1
