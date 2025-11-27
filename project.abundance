@@ -55,7 +55,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -107,7 +108,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -127,7 +129,8 @@
         },
         {
           "name": "zDist",
-          "ioValue": 5
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
