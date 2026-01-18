@@ -242,8 +242,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.7187079407806192,
-          "y": 0.3529411764705882,
+          "x": 0.7172538392050587,
+          "y": 0.35232067510548526,
           "uniqueID": "cea1db65-48d5-429e-a08f-4e1e20a91506",
           "ioValues": [
             {
@@ -718,30 +718,7 @@
             },
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "extrude-move-rotate-move-circle-11-0-0-0-0-0-0--20-0-0-{\"origin\":[-48,0,-5.329070518200751e-15],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-10",
-                "dimension": "3D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    -48,
-                    0,
-                    -5.329070518200751e-15
-                  ],
-                  "xDir": [
-                    1.1102230246251565e-16,
-                    0,
-                    -1
-                  ],
-                  "normal": [
-                    1,
-                    0,
-                    1.1102230246251565e-16
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 3",
@@ -891,11 +868,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-4470",
           "ap2ID": "id-4476"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-4470",
-          "ap2ID": "id-4855"
         },
         {
           "ap2Name": "geometry",
