@@ -565,12 +565,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": -28
             },
             {
               "name": "yDist",
-              "ioValue": 28
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -633,11 +633,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": -20
+              "ioValue": -20,
+              "currentEquation": "-20"
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -687,14 +689,14 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.6124661246612466,
-          "y": 0.5822784810126582,
+          "x": 0.6160794941282747,
+          "y": 0.5763888888888888,
           "uniqueID": "id-4873",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-move-rectangle-40-40-0-28-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
+                "geometry": "extrude-move-rectangle-38-38--28-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -815,11 +817,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40
+              "ioValue": 38
             },
             {
               "name": "y length",
-              "ioValue": 40
+              "ioValue": 38
             }
           ]
         }
