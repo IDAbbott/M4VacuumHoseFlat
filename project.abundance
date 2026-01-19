@@ -408,11 +408,163 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 5
             },
             {
               "name": "y length",
               "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.23730803974706413,
+          "y": 0.4027777777777778,
+          "uniqueID": "id-7373",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 2.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Loft",
+          "x": 0.3098464317976513,
+          "y": 0.4537037037037038,
+          "uniqueID": "id-7379",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-rectangle-10-10-2.5-0-0",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    10
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "rectangle-5-10",
+                "dimension": "2D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ],
+          "closedSelection": 0
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5112917795844625,
+          "y": 0.33101851851851855,
+          "uniqueID": "id-7384",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.42728093947606144,
+          "y": 0.4976851851851851,
+          "uniqueID": "id-7390",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 180
             }
           ]
         }
@@ -467,6 +619,31 @@
           "ap2Name": "geometry",
           "ap1ID": "id-7048",
           "ap2ID": "id-4476"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7365",
+          "ap2ID": "id-7373"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7369",
+          "ap2ID": "id-7379"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7373",
+          "ap2ID": "id-7379"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7379",
+          "ap2ID": "id-7384"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7379",
+          "ap2ID": "id-7390"
         }
       ],
       "fileTypeVersion": 1
