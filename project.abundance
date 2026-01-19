@@ -307,8 +307,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.6169828364950316,
-          "y": 0.7129629629629629,
+          "x": 0.6124661246612466,
+          "y": 0.6990740740740741,
           "uniqueID": "id-4873",
           "ioValues": [
             {
@@ -341,7 +341,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-10-38-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-38-0-0-0",
+                "geometry": "move-extrude-rectangle-10-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-30--10-0-28",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -669,15 +669,16 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": -10
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 28
             }
           ]
         },
@@ -693,7 +694,7 @@
             },
             {
               "name": "height",
-              "ioValue": 38
+              "ioValue": 30
             }
           ]
         },
@@ -705,11 +706,78 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 10,
+              "currentEquation": "10"
             },
             {
               "name": "y length",
-              "ioValue": 38
+              "ioValue": 30
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.22493224932249323,
+          "y": 0.5601851851851851,
+          "uniqueID": "id-7429",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.37579042457091233,
+          "y": 0.5879629629629629,
+          "uniqueID": "id-7433",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 20
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.28906955736224027,
+          "y": 0.5740740740740741,
+          "uniqueID": "id-7439",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
             }
           ]
         }
@@ -776,6 +844,11 @@
           "ap2ID": "id-7379"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7369",
+          "ap2ID": "id-7429"
+        },
+        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-7373",
           "ap2ID": "id-7379"
@@ -824,6 +897,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-7425",
           "ap2ID": "id-7420"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7429",
+          "ap2ID": "id-7439"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7439",
+          "ap2ID": "id-7433"
         }
       ],
       "fileTypeVersion": 1
