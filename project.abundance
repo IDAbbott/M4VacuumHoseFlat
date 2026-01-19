@@ -211,8 +211,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3889636608344549,
-          "y": 0.23529411764705882,
+          "x": 0.4841915085817525,
+          "y": 0.15046296296296297,
           "uniqueID": "23564c6b-9c52-4d0f-90e4-ea07f335879c",
           "ioValues": [
             {
@@ -558,7 +558,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 42
+              "ioValue": 45
             }
           ]
         },
@@ -614,8 +614,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4941282746160795,
-          "y": 0.5185185185185185,
+          "x": 0.47335140018066846,
+          "y": 0.4537037037037038,
           "uniqueID": "id-7402",
           "ioValues": [
             {
@@ -633,7 +633,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 42
+              "ioValue": 45
             }
           ]
         },
@@ -732,7 +732,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 20
+              "ioValue": 25
             }
           ]
         },
@@ -897,12 +897,6 @@
       "y": 0.21008403361344538,
       "uniqueID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b",
       "name": "BaseDustCollect",
-      "ioValues": [
-        {
-          "name": "Hose_Diameter",
-          "ioValue": 45
-        }
-      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -1288,28 +1282,6 @@
               "ioValue": 32
             }
           ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-4810",
-          "name": "Hose_Diameter",
-          "type": "number"
-        },
-        {
-          "atomType": "Equation",
-          "x": 0.12314939434724093,
-          "y": 0.1512605042016807,
-          "uniqueID": "id-4828",
-          "name": "x * y",
-          "ioValues": [
-            {
-              "name": "y",
-              "ioValue": 1.2
-            }
-          ],
-          "currentEquation": "x * y"
         },
         {
           "atomType": "Export",
@@ -2354,11 +2326,6 @@
           "ap2ID": "id-2806"
         },
         {
-          "ap2Name": "x",
-          "ap1ID": "id-4810",
-          "ap2ID": "id-4828"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-6221",
           "ap2ID": "id-5820"
@@ -2422,11 +2389,6 @@
       "ap2Name": "Hose_Diameter",
       "ap1ID": "id-4503",
       "ap2ID": "8c069298-3247-466b-9c48-a5131119d58a"
-    },
-    {
-      "ap2Name": "Hose_Diameter",
-      "ap1ID": "id-4503",
-      "ap2ID": "54ea62d4-8c2e-4dde-99b6-4f487fa37d7b"
     },
     {
       "ap2Name": "Shape 1",
