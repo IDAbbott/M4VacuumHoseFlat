@@ -204,7 +204,8 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
@@ -212,7 +213,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -90
+              "ioValue": 0
             }
           ]
         },
@@ -342,12 +343,20 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.5636856368563686,
-          "y": 0.2199074074074074,
+          "x": 0.5600722673893406,
+          "y": 0.21296296296296294,
           "uniqueID": "id-4879",
           "ioValues": [
             {
               "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
               "ioValue": null
             }
           ]
@@ -521,8 +530,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5383920505871725,
-          "y": 0.4050925925925926,
+          "x": 0.4787714543812105,
+          "y": 0.34953703703703703,
           "uniqueID": "id-7384",
           "ioValues": [
             {
@@ -531,12 +540,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -18
+              "ioValue": -7
             },
             {
               "name": "yDist",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": -18,
+              "currentEquation": "-18"
             },
             {
               "name": "zDist",
@@ -547,8 +556,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.42728093947606144,
-          "y": 0.39583333333333337,
+          "x": 0.39205058717253843,
+          "y": 0.3680555555555556,
           "uniqueID": "id-7390",
           "ioValues": [
             {
@@ -566,7 +575,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 90
             }
           ]
         },
@@ -597,8 +606,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5254742547425474,
-          "y": 0.525462962962963,
+          "x": 0.4986449864498645,
+          "y": 0.5324074074074074,
           "uniqueID": "id-7402",
           "ioValues": [
             {
@@ -607,7 +616,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 7
             },
             {
               "name": "yDist",
@@ -697,6 +706,11 @@
           "ap2ID": "id-7396"
         },
         {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-7384",
+          "ap2ID": "id-4879"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-7390",
           "ap2ID": "id-7384"
@@ -705,6 +719,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-7396",
           "ap2ID": "id-7402"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-7402",
+          "ap2ID": "id-4879"
         }
       ],
       "fileTypeVersion": 1
